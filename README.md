@@ -45,12 +45,14 @@ Use `[STM]` tags for transient goals, modes, or thread-specific context. Example
 Use `[LTM]` tags for persistent identity, tone, preferences, or constraints. Example:  
 `"Add [LTM] Prefers clarity over convention, even if tone is direct."`
 
-Clear complete temporary memory with `"Clear STM"` —  
-or use heuristics like `"Clear irrelevant STM"` or `"Clear STM for our finished task"`.
+Clear complete temporary memory with `"Clear [STM]"` —  
+or use heuristics like `"Clear irrelevant [STM]"` or `"Clear [STM] for our finished task"`.
 
-Actively manage memory with:  
-- `"Review memory and suggest [STM] entries eligible for removal."`  
-- `"Review memory and suggest [STM] entries eligible for promotion to [LTM]."`
+Actively manage memory with:
+- `"List all [STM] entries."` — View all temporary context.
+- `"Summarize active [STM] context."` — Get a concise overview.
+- `"Which [STM] entries are likely outdated or redundant?"` — Cleanup suggestions.
+- `"Is any [STM] entry a good candidate for promotion to [LTM]?"` — Preserve what matters.
 
 ### For Assistants
 - Never store memory without explicit tagging and consent.
