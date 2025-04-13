@@ -38,10 +38,19 @@ ChatGPT’s memory can remember user preferences, tone, goals, and more. However
 ## How to Use
 
 ### For Users
-- Add these memory entries via prompt or memory editor.
-- Use `[STM]` tags for temporary goals or context (e.g. `[STM] Active_goal: Reviewing onboarding strategy.`)
-- Ask the assistant to promote to `[LTM]` if it proves useful.
-- Clear `[STM]` entries when context changes.
+
+Use `[STM]` tags for transient goals, modes, or thread-specific context. Example:  
+`"Add [STM] Focus_context: Reviewing onboarding flow."`
+
+Use `[LTM]` tags for persistent identity, tone, preferences, or constraints. Example:  
+`"Add [LTM] Prefers clarity over convention, even if tone is direct."`
+
+Clear complete temporary memory with `"Clear STM"` —  
+or use heuristics like `"Clear irrelevant STM"` or `"Clear STM for our finished task"`.
+
+Actively manage memory with:  
+- `"Review memory and suggest [STM] entries eligible for removal."`  
+- `"Review memory and suggest [STM] entries eligible for promotion to [LTM]."`
 
 ### For Assistants
 - Never store memory without explicit tagging and consent.
