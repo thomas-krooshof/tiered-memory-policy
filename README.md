@@ -1,5 +1,3 @@
-Tiered Memory Policy is a scoped memory discipline for ChatGPT using explicit [LTM]/[STM] tags, consent-based writes, and clean separation between persistent identity and temporary context. Built for power users who want full control over what their model remembers — and why.
-
 # Tiered Memory Discipline for ChatGPT
 
 A structured method to manage and audit memory in ChatGPT using scoped tagging, explicit consent, and policy enforcement.
