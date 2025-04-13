@@ -40,7 +40,7 @@ ChatGPT’s memory can remember user preferences, tone, goals, and more. However
 ### For Users
 
 Use `[STM]` tags for transient goals, modes, or thread-specific context. Example:  
-`"Add [STM] Focus_context: Reviewing onboarding flow."`
+`"Add [STM] Reviewing onboarding flow."`
 
 Use `[LTM]` tags for persistent identity, tone, preferences, or constraints. Example:  
 `"Add [LTM] Prefers clarity over convention, even if tone is direct."`
