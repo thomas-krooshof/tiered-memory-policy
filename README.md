@@ -10,6 +10,16 @@ ChatGPT’s memory can remember user preferences, tone, goals, and more. However
 
 ---
 
+## Benefits
+
+- Full user control over memory behavior
+- Auditability and transparency
+- Prevents memory bloat or drift
+- Easily portable to new threads or setups
+- Enables flexible CLI-style extensions and interaction patterns
+
+---
+
 ## Key Concepts
 
 - **[LTM]** — Long-Term Memory: persistent identity, preferences, policies
@@ -102,11 +112,3 @@ To enable a command like `::review`, you must define it explicitly:
 ```
 
 This layer is optional but powerful — it enables low-friction state control and semantic precision across interactions.
-
-## Benefits
-
-- Full user control over memory behavior
-- Auditability and transparency
-- Prevents memory bloat or drift
-- Easily portable to new threads or setups
-- Enables flexible CLI-style extensions and interaction patterns
