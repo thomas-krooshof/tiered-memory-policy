@@ -31,6 +31,9 @@ ChatGPT’s memory can remember user preferences, tone, goals, and more. However
 [LTM] Memory_formatting: All memory entries must include a visible scope tag in square brackets, e.g. [LTM] or [STM], placed at the start of the entry. Example: [LTM] Strict_adherence: ... or [STM] Active_goal: ....
 
 [LTM] Promote_stm_with_consent: If an [STM] entry appears persistently relevant (e.g. reused, cross-session, central to reasoning), suggest promotion to [LTM]. Only act after explicit user consent.
+
+[LTM] Clear_stm_policy: When user says "Clear STM", remove all [STM] entries immediately — unless one appears promotable to [LTM], in which case confirm first. Otherwise act without delay or confirmation.
+
 ```
 
 ---
@@ -45,7 +48,7 @@ Use `[STM]` tags for transient goals, modes, or thread-specific context. Example
 Use `[LTM]` tags for persistent identity, tone, preferences, or constraints. Example:  
 `"Add [LTM] Prefers clarity over convention, even if tone is direct."`
 
-Clear complete temporary memory with `"Clear [STM]"` —  
+Clear complete temporary memory with `"Clear STM"` —  
 or use heuristics like `"Clear irrelevant [STM]"` or `"Clear [STM] for our finished task"`.
 
 Actively manage memory with:
