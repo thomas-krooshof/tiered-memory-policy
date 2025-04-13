@@ -75,7 +75,7 @@ Actively manage memory with:
 
 ## Command Interface and Mode Control (Optional)
 
-Tiered Memory Policy allows for an easily manageable CLI-like interface using `:` and `::` syntax for fast, structured control over agent behavior. using `:` and `::` syntax for fast, structured control over agent behavior.
+Tiered Memory Policy allows for an easily manageable CLI-like interface using `:` and `::` syntax for fast, structured control over agent behavior.
 
 - `:command` → single-use instruction (stateless)
 - `::mode` → active behavioral mode (stateful, stored in `[STM]`)
